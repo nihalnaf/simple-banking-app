@@ -4,7 +4,6 @@ class BankAccount:
     def __init__(self, bal):
         self.balance = bal
         self.transCount = 0 
-
     
     #function to get deposit
     def deposit(self, amount):
